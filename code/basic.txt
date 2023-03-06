@@ -1,0 +1,32 @@
+1. class are user defined data type, which has properties and some method. it is template for creating object.
+
+2. object is just a variable of this data type.
+
+3. content of class are
+    1. attributes - these are variable that represent state of object.
+    2. method - these are action that user can perform.
+    3. construcor - these are special method are called when object is created, use to intialize.
+
+
+
+
+
+3. scope resolution operator is :: symbol, we can define a method of class 
+outside the class using scope resolution operator
+
+
+4. acess specifier tells where and whatever the function and data we have declared in this class will be available.
+
+three type of acess specifier
+1. public
+2. private 
+3. protected.
+
+public : are accessible from anywhere in the code.
+any part of the code can access and modify public members of an class.
+
+Private: are only accessible within the class.
+private members cannot be accessed or modified in outside.
+
+Protected: are accessible within the class and its derived classes.
+protected members can be accessed and modified by the class and its subclasses only
