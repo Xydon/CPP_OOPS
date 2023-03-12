@@ -1,0 +1,83 @@
+//constructor
+
+1. What are constructors? 
+
+constructors are special method, which has no return type, and same name as class.
+
+
+2. What is the role of a constructor?
+constructor use to initialized the variable of object when it created.
+
+
+3. Is it necessary for a class to have a constructor? 
+No, it is not necessary to class have constructor, if not created by me it created by default 
+it has no parameter and do nothing.
+
+4. What does a constructor returns? 
+constructor have no return typr.
+
+
+5. Do all classes have a constructor? If yes, then what are the contents of it? 
+Yes, all classes have a constructor. If a class does not have  constructor,
+if not created by me it created by default  it has no parameter and do nothing.
+
+
+6. When does the constructor executes itself?
+when we creete the object of that class, constructor executes itself.
+
+
+7. Can constructor be private? What happens if it is private? 
+constructor can be private , but if the constructor is private we cannot create object of it outside the class
+or friend class.
+
+
+
+8. Can we make an object of a class which have a private constructor? 
+if constructor is private than object can be created in class itself,
+and in friend class only.
+
+9. What is a default constructor? 
+constructor which created itself when we not define any constructor
+   1.  What is the contents of a default constructor?
+it has no content, and it do nothing.
+
+
+10. What is a parameterized constructor? 
+parameterized constructor is constructor which take arguments, and it use to initialize the variable
+when create object.
+
+
+11. What is constructor overloading? 
+constructor overloading is creating multiple constructor with diffrent type of parameter 
+and can also be diffrent number of parameter.
+
+
+
+
+////access specifier
+
+3. Where are access specifiers used? 
+Access specifiers are used in classes control the visibility of class members from different parts of the code. 
+Access specifiers can be 
+1. public
+2. protected
+3. private
+
+public members are accessible from anywhere, including outside the class, and can be called by any part of the program.
+
+private members are only accessible from within the same class, and cannot be called or accessed from outside the class.
+
+protected members are similar to private members, but they can be accessed by derived classes as well.
+Access specifiers are used to for encapsulation, which is the practice of hiding the implementation 
+details of a class from other parts of the program. 
+
+
+
+5. Explain some reasons why protected specifier was made? 
+
+allows subclasses to access the member variables and member functions of the base class, 
+but keeps them hidden from the rest of the program. 
+
+Inheritance: useful for implementing inheritance, which is the process of creating a new class
+ from an existing class. When a subclass inherits from a base class, it can access the protected members of the base class, but not the private members. 
+allow to reuse code.
