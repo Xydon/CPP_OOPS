@@ -51,3 +51,34 @@ class Complex {
 3. Where are access specifiers used? 
 4. Demonstrate the working of the access specifiers with example in Specifiers.cpp.
 5. Explain some reasons why protected specifier was made? 
+
+## Destructors 
+1. What are destructors? 
+2. Do all classes have a destructor? 
+3. What is the content of a destructor of a class ?
+4. Can we over-ride a destructor? 
+5. Can we call a destructor? 
+6. Can a destructor have parameters? 
+7. How to create a custom destructor? 
+8. When is a destructor called? 
+9. What we use destructor for?
+10. Destructor is used to free allocated memory? Explain with a programming example. 
+11. Write short notes on the delete operator. 
+
+## Static methods and classes 
+1. What is a static variable? 
+2. How is a static variable created and initialized? 
+3. Where is a static variable defined in memory? 
+4. How is a static variable different than a regular variable? 
+5. Create a static variable that keeps count of how many times a function was called. 
+6. Create a function that returns 0 for 25% of the time it is called, 1 for 50% of time and -1 for remaining time. [[design it]]
+7. Create and initialize a static varialbe in a class with all the possible access specifiers. 
+8. What is static binding and dynamic binding? 
+9. Can you set the values of static variables in dynamic methods? 
+   1. Why only static variables can be set in static functions only? 
+### Static functions 
+1. What are static functions? 
+2. Why the concept of static functions were introduced? 
+3. How to declare and define a static function.
+4. Inherit from the vector<int> class and crate a static function that takes in a number n and returns an identity matrix of size = n created from vector. 
+5. Are static methods also inherited in inheritance? 
