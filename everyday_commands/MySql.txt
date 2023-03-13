@@ -1,0 +1,6 @@
+FORMAT TO WRITE 
+command heading 
+command syntax 
+what the command does 
+uses 
+example 
