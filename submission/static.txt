@@ -1,0 +1,57 @@
+1. What is a static variable? 
+that is declared start with static keyword. It is a variable that retains its value between function 
+calls and is shared by all instances of the class
+--variable available through function call.
+
+
+2. How is a static variable created and initialized? 
+syntax : static data_type data_name;
+we cant initialize this static class member inside that class member
+ or defination of that class , we need to do it outside.
+
+
+3. Where is a static variable defined in memory? 
+it is stored in heap and available between function calls.
+
+
+4. How is a static variable different than a regular variable?
+it retains its value between function calls and is shared by all instances of the class, 
+whereas a regular variable  has a local scope and its value is lost when the function returns.
+
+
+
+
+8. What is static binding and dynamic binding? 
+Static binding does its work during compile time and has better performance. 
+Static binding can be applied using function overloading or operator overloading. 
+Dynamic binding works during run time & is more flexible.
+
+
+
+### Static functions 
+1. What are static functions?
+functions that are declared with the keyword static.
+They are functions that are associated with the class rather than with an instance of the class.
+
+
+
+
+2. Why the concept of static functions were introduced? 
+may be because, static functions allow the class to have 
+functions that can be called without creating an instance of the class.
+
+3. How to declare and define a static function.
+class MyClass {
+public:
+    static void staticFunction() {
+        // code 
+    }
+};
+
+
+/// do in morning
+9. Can you set the values of static variables in dynamic methods? 
+   1. Why only static variables can be set in static functions only?
+4. Inherit from the vector<int> class and crate a static function that takes in a number n and returns an identity matrix of size = n created from vector. 
+5. Are static methods also inherited in inheritance? 
+7. Create a function that returns 0 for 25% of the time it is called, 1 for 50% of time and -1 for remaining time.

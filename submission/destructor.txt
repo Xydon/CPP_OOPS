@@ -1,0 +1,60 @@
+## Destructors 
+1. What are destructors? 
+it is also a special member function that is executed when an object of its class goes 
+out of scope ,object of the class is destroyed or whenever delete expression is applied to pointer to the object of that class.
+--> when memory allocated to object is released at that time destructor will be called. 
+A destructor have same name as class, start with( ~ )
+
+2. Do all classes have a destructor? 
+yes, if not define than there will be default.
+
+3. What is the content of a destructor of a class ?
+The content of a destructor of a class usually contains code to 
+release the resources that the object has acquired during its lifetime, 
+
+
+4. Can we over-ride a destructor? 
+it is not possible to define more than one destructor.
+
+
+5. Can we call a destructor? 
+yes, we can call destructor same as we call other method.
+syntax: 
+object_name.~class_name() 
+
+destructor is executed itself when we delete or destroy object, object goes out of 
+scope , the function ends , the program ends , a block containing local variables ends 
+a delete operator is called. 
+
+
+
+
+6. Can a destructor have parameters?
+no, destructor have not any parameters and no return type.
+
+7. How to create a custom destructor? 
+When a class contains a pointer to memory allocated in class, 
+we should write a destructor to release memory before the class instance is destroyed. 
+This must be done to avoid memory leak
+syntex:
+~name(same as class name){
+
+}
+
+
+8. When is a destructor called? 
+when we delete or destroy object , when object goes out of scope destructor wil called.
+
+9. What we use destructor for?
+destructor is used to release the memory that is allocated to object and variable 
+of class when we create it dynamically.
+
+
+
+
+
+11. Write short notes on the delete operator. 
+
+delete operator is used to free the memory allocated by the new operator. 
+When we allocate memory using new, we must use delete to release the memory when 
+we are done with it. If not, it can cause memory leaks in our program
