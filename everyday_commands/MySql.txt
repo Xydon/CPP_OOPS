@@ -1,6 +1,21 @@
-FORMAT TO WRITE 
+FORMAT TO WRITE
 command heading 
 command syntax 
 what the command does 
 uses 
 example 
+
+
+
+1. SELECT
+
+-->SELECT column1, column2, ... FROM table_name WHERE condition;
+
+-->use to retrieve data from one or more tables in a MySQL database. 
+The command allows you to specify the columns you want to retrieve, 
+the table from which you want to retrieve data, and the condition that must be met for the data to be returned.
+
+--> SELECT * FROM employees WHERE department='Sales';
+
+
+

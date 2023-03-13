@@ -3,3 +3,20 @@ command syntax
 what the command does 
 uses 
 example 
+
+
+1. PULL
+git pull <options><remote>/<branchname> 
+
+
+use to fetch and merge changes from a remote repository into your local repository. 
+It combines the git fetch command (which retrieves changes from the remote repository) with the 
+git merge command (which merges the changes into your local branch).
+
+
+command is commonly used when working collaboratively on a project with other developers, 
+as it allows you to keep your local repository up-to-date with changes made by others.
+
+git pull origin main
+This command pulls changes from the "main" branch of the remote repository 
+called "origin" into the current local branch.
