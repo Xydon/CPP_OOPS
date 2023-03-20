@@ -20,3 +20,16 @@ as it allows you to keep your local repository up-to-date with changes made by o
 git pull origin main
 This command pulls changes from the "main" branch of the remote repository 
 called "origin" into the current local branch.
+
+
+
+
+2. branch
+git branch my-branch
+
+create a new branch to store any new changes
+
+
+3. git checkout my-branch
+switch to that branch 
+

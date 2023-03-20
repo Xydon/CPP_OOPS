@@ -18,4 +18,48 @@ the table from which you want to retrieve data, and the condition that must be m
 --> SELECT * FROM employees WHERE department='Sales';
 
 
+2. INSERT
+
+insert values into a table 
+INSERT INTO table_name
+VALUES (value1, value2, value3, …);
+
+
+INSERT INTO Marks
+VALUES (1, ‘kashish’,94);
+
+
+3. ALTER
+
+[i] 
+add a new column
+
+ALTER TABLE table 
+ADD column_name datatype;
+
+For example to add Mentor’s Name column, we have to type the following.
+ALTER TABLE Marks
+ADD Mentor varchar(100);
+
+
+
+[ii] 
+To remove a column from a table
+ALTER TABLE table_name
+DROP column_name;
+
+
+[iii]
+To add a primary key to a table
+ALTER TABLE table_name 
+ADD PRIMARY KEY (column_name,…);
+
+[iv]
+To remove the primary key of a table
+ALTER TABLE table_name
+DROP PRIMARY KEY;
+
+
+
+
 
