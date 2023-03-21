@@ -31,5 +31,28 @@ create a new branch to store any new changes
 
 
 3. git checkout my-branch
-switch to that branch 
+switch to that branch
 
+
+4. 
+Command: Clone a repository
+Command syntax: git clone <repository URL>
+
+This command creates a copy of a remote repository on your local machine.
+
+This is useful when we want to work on a project that is hosted on GitHub or 
+another Git hosting service. By cloning the repository, we can make 
+changes to the code and then push those changes back to the 
+remote repository.
+
+
+
+5. Committing Changes
+
+Command Syntax: git commit -m "commit message"
+
+This command creates a new commit with changes that have been staged previously. The -m option is used to include a commit message.
+
+This command is used to record changes to the repository history.
+
+example git commit -m "added new feature"

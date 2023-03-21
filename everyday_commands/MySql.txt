@@ -60,6 +60,40 @@ ALTER TABLE table_name
 DROP PRIMARY KEY;
 
 
+4.
+
+Command Heading: Create a Database
+
+Command Syntax: CREATE DATABASE [database name];
+
+This command creates a new database with the specified [database name].
+
+Uses: This command is used when you want to create a new database for storing data.
+
+example : CREATE DATABASE mydatabase;
+
+
+5. Command Heading: Create a Table
+
+Command Syntax:  CREATE TABLE [table name] (
+   [column name] [data type] [optional constraints],
+   [column name] [data type] [optional constraints],
+   ...
+);
+
+This command creates a new table with the specified [table name] and its columns, 
+data types and optional constraints.
+
+Uses: This command is used when you want to create a new table to store data in your database.
+
+example: 
+CREATE TABLE customers (
+   id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+   name VARCHAR(30) NOT NULL,
+   email VARCHAR(50),
+   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
 
 
 
