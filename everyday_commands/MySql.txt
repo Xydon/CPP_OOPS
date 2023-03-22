@@ -84,7 +84,8 @@ Command Syntax:  CREATE TABLE [table name] (
 This command creates a new table with the specified [table name] and its columns, 
 data types and optional constraints.
 
-Uses: This command is used when you want to create a new table to store data in your database.
+Uses: This command is used when you want to create a new table to store data in your 
+database.
 
 example: 
 CREATE TABLE customers (
@@ -95,5 +96,36 @@ CREATE TABLE customers (
 );
 
 
+6.Update data in a table
+
+Command syntax:
+UPDATE [table_name]
+SET [column1] = [value1], [column2] = [value2], ...
+WHERE [condition];
+
+
+Updates one or more columns in the specified table that match the specified 
+condition.
+This is useful when we want to modify existing data in our table.
+
+Example: 
+UPDATE customers
+SET email = 'john.smith@example.com'
+WHERE id = 1;
+
+
+7. Delete data from a table
+
+Command syntax:
+DELETE FROM [table_name]
+WHERE [condition];
+
+Deletes one or more rows of data from the specified table that match the specified 
+condition.
+Uses: This is useful when we want to remove unwanted data from our table.
+
+Example:
+DELETE FROM customers
+WHERE id = 1;
 
 

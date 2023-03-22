@@ -24,14 +24,20 @@ called "origin" into the current local branch.
 
 
 
-2. branch
-git branch my-branch
+2. Create a new branch
+Command syntax: git branch [new_branch_name]
+Creates a new branch with the given name.
+This is useful when you want to work on a new feature or fix a bug without 
+affecting the main branch.
+Example: git branch new-feature
 
-create a new branch to store any new changes
 
-
-3. git checkout my-branch
-switch to that branch
+3.  Add changes to the staging area
+Command syntax: git add [file_name]
+Adds the changes in the specified file to the staging area, ready to be committed.
+Uses: This is useful when you want to stage specific changes for commit, 
+instead of committing all changes in your working directory.
+Example: git add index.html
 
 
 4. 
@@ -56,3 +62,19 @@ This command creates a new commit with changes that have been staged previously.
 This command is used to record changes to the repository history.
 
 example git commit -m "added new feature"
+
+
+6. Push changes to a remote repository
+Command syntax: git push [remote_name] [branch_name]
+Pushes the specified branch to the remote repository with the given name.
+This is useful when we want to update our remote repository with your local changes.
+Example: git push origin main
+
+
+7. Merge branches
+
+Command syntax: git merge [branch_name]
+Merges the specified branch into the current branch.
+Uses: This is useful when we want to incorporate changes from another branch into 
+our current branch.
+Example: git merge feature-branch
